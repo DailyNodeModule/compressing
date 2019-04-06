@@ -1,0 +1,21 @@
+{
+  "name": "@dailynodemodule/compressing",
+  "version": "1.0.0",
+  "description": "This project is a sample project for compressing",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dailynodemodule/compressing"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Zachary Boyd <zachary@dailynodemodule.com>",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "compressing": "^1.4.0",
+    "fs-extra": "^7.0.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  }
+}
